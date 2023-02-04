@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Raleway:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f8a891;
+}
+
+#header{
+    position: relative;
+    background-color: #fadfd8;
+    margin: 50px 50px 50px 50px;
+    height: 91vh;
+    border-radius: 25px;
+}
+.navbar{
+    padding: 25px 37px;
+}
+.nav-items{
+    position:absolute;
+    list-style-type: none;
+   left: 517px;
+    top: 43px;
+
+}
+.nav-items a{
+    font-family:'Raleway', sans-serif;
+    text-decoration: none;
+    color: #2e499c;
+}
+.nav-items a:hover{
+    color: #01134a;
+}
+.nav-items li{
+    display: inline;
+    margin: 0px 32px;
+}
+.nav-brand{
+    display: inline;
+    height: 6vh;
+} 
+.Vacation-text{
+    position: absolute;
+    top: 38vh;
+    left: 24vh;
+    z-index: 1;
+}
+.Vacation-text h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #132b80;
+    font-size: 7vh;
+}
+.Vacation-text p{
+    font-family: 'Montserrat', sans-serif;
+    color: #2e438e;
+    line-height: 1.5;
+   
+}
+.cloud-1{
+    position: absolute;
+    height: 13vh;
+    width: 24vw;
+    left: 792px;
+}
+.cloud-2{
+    position: absolute;
+    height: 17vh;
+    width: 15vw;
+    left: 357px;
+    top: 200px;
+}
+.girl-img{
+    position: absolute;
+    left: 459px;
+    top: 213px;
+    height: 72vh;
+}
+.form{
+    position: absolute;
+    top: 270px;
+    left: 930px;
+}
+.form p{
+    position: relative;
+    left: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132b80;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.form-des{
+    width: 283px;
+    height: 5.5vh;
+    border-radius: 54px;
+    margin-bottom: 6px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #586593;
+}
+.form-date{
+    width: 139px;
+    height: 5.5vh;
+    border-radius: 54px;
+    margin-bottom: 6px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.btn{
+    width: 139px;
+    height: 5.5vh;
+    border-radius: 54px;
+    margin-bottom: 6px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #132b80;
+    color: #fff;
+}
+.guest{
+    width: 147px;
+    height: 5.5vh;
+    border-radius: 54px;
+    margin-bottom: 6px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #586593;
+}
