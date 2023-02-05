@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Raleway:wght@600&display=swap');
-
-
 *{
     margin: 0;
     padding: 0;
@@ -53,11 +51,11 @@ body{
     color: #132b80;
     font-size: 7vh;
 }
-.Vacation-text p{
+.vac{
     font-family: 'Montserrat', sans-serif;
     color: #2e438e;
-    line-height: 1.5;
-   
+    line-height: 1.5; 
+    margin-left: -4px;
 }
 .cloud-1{
     position: absolute;
@@ -78,7 +76,7 @@ body{
     top: 213px;
     height: 72vh;
 }
-.form{
+.form-1{
     position: absolute;
     top: 270px;
     left: 930px;
@@ -98,7 +96,7 @@ body{
     margin-bottom: 6px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    color: #586593;
+    
 }
 .form-date{
     width: 139px;
@@ -118,6 +116,9 @@ body{
     background-color: #132b80;
     color: #fff;
 }
+.btn:hover{
+    background-color:#f8a891;
+}
 .guest{
     width: 147px;
     height: 5.5vh;
@@ -125,5 +126,200 @@ body{
     margin-bottom: 6px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    color: #586593;
+    
+}
+#Destinations{
+    position: relative;
+    background-color: #fadfd8;
+    margin: 90px 50px 50px 50px;
+    height: 91vh;
+    border-radius: 25px;
+}
+.We{
+    position: absolute;
+    top: 185px;
+    left: 448px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132b80;
+    font-size: 7vh;
+    margin-bottom: 5px;
+}
+.serve-number{
+    position: absolute;
+    top: 240px;
+    left: 355px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132b80;
+    font-size: 22vh;
+}
+.City{
+    position: absolute;
+    top: 445px;
+    left: 570px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132b80;
+    font-size: 7vh;
+    margin-bottom: 5px;
+}
+.couple{
+    position: relative;
+    top: 29vh;
+    left: 116vh;
+    height: 66vh;
+}
+.plane{
+    position: relative;
+    top: -36vh;
+    left: -23vh;
+    width: 94vh;
+}
+.btn-1{
+    position: relative;
+    width: 108px;
+    height: 5.5vh;
+    border-radius: 78px;
+    margin-bottom: 6px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #132b80;
+    color: #fff;
+    top: 8vh;
+    left: -80vh;
+}
+.btn-1:hover{
+    background-color: #f8a891;
+}
+/* Subscriptions Section */
+#Subscription{
+    position: relative;
+    background-color: #fadfd8;
+    margin: 90px 50px 50px 50px;
+    height: 91vh;
+    border-radius: 25px;
+}
+.form-2{
+    background-color: #f4ebe9;
+    height: 55vh;
+    width: 44vh;
+    position: relative;
+    top: 21vh;
+    left: 33vh;
+    border-radius: 33px;
+    
+}
+.para{
+    font-family: 'Montserrat', sans-serif;
+    color: #132b80;
+    font-weight: bold;
+    margin-bottom: 6px;
+    margin-left: 38px;
+    margin-top: 13px;
+    position: relative;
+    top: 30px;
+}
+.form-2-di{
+    display: inline-block;
+    margin-left: 5px;
+}
+.form-2-input{
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-left: 38px;
+    margin-top: 1px;
+    position: relative;
+    top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    width: 245px;
+    padding: 5px;
+
+}
+.Subs-op{
+    padding: 3px;
+    border-radius: 5px;
+    border-radius: 1px solid;
+    margin-left: 38px;
+    margin-top: 1px;
+    position: relative;
+    top: 30px;
+    width: 245px;
+}
+.subs-btn{
+    padding: 3px;
+    border-radius: 5px;
+    border-radius: 1px solid;
+    margin-left: 38px;
+    margin-top: 1px;
+    position: relative;
+    top: 30px;
+}
+.gk{
+    margin-top: 13px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2e438e;
+    color: #fff;
+    padding: 8px;
+
+}
+.gk:hover{
+    background-color: #f8a891;
+}
+
+.Subs-text{
+    position: relative;
+    top: 16vh;
+    left: 53vh;
+    display: inline-block;
+}
+.Subs-text h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #132b80;
+    font-size: 7vh;
+}
+.Subs-text P{
+    font-family: 'Montserrat', sans-serif;
+    color: #2e438e;
+    margin-left: 1px;
+}
+/* Footer Section */
+#footer{
+    position: relative;
+    background-color: #fadfd8;
+    margin: 15px 50px 50px 50px;
+    height: 29vh;
+    border-radius: 25px;
+}
+
+.footer-logo img{
+    height: 87px;
+    position: relative;
+    top: 62px;
+    left: 67px;
+}
+.about-us{
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    left: 755px;
+    font-family: 'Montserrat', sans-serif;
+    color: #132b80;
+    font-weight: bold;
+   
+}
+.about-us a{
+    text-decoration: none;
+    padding: 39px;
+}
+.about-us a:hover{
+    color: #f8a891;
+}
+.copyright{
+    font-family: 'Montserrat', sans-serif;
+    color: #f9faff;
+    position: relative;
+    top: 142px;
+    left: 149px;
+    display: inline-block;
+    font-weight: bold;
+
 }
